@@ -25,7 +25,7 @@ const colors = [
     document.body.style.backgroundColor = newColor;
     color.textContent = newColor;
   
-    // Ensure contrast for readability
+   
     color.style.color = newColor === "#000000" ? "#FFFFFF" : "#000000";
   });
   

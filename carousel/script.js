@@ -19,7 +19,7 @@ prevBtn.addEventListener("click", () => {
     showSlide(index);
 });
 
-// Auto-slide every 3 seconds
+
 setInterval(() => {
     index = (index + 1) % slides.length;
     showSlide(index);
